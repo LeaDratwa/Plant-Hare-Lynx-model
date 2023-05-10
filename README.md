@@ -9,7 +9,9 @@ This is a three-species model describing the relationship between the consumptio
 The increase in the population of plants is correlated with a higher birth rate of hares and a greater hare population is correlated with an increase in the lynx population. 
 
 Scenario 1 
+
 aim: Stable periodicity of roughly 20 months. 
+
 
 The values selected for the three populations were small and close (0.6, 0.3, and 0.5, for the plants, hare, and lynx, respectively). The higher plant population at the start enabled a rise in hare which then gave rise to an increase in lynx. Having a lower plant population at the start led to a slower increase in both of the other populations so the oscillations were not as regular and their amplitude increased over time. 
 ![image](https://github.com/LeaDratwa/Plant-Hare-Lynx-model/assets/133098307/8c22661f-acdf-4856-846c-43ff205664c6)
@@ -20,7 +22,9 @@ The death rate of the lynx was set to 0.545 which yielded an almost unchanging a
 Figure 2: State space with lynx death rate set to 0.545.
 
 Scenario 2
+
 aim: 2 peaks in the lynx population within the 200 month period. Random oscillations. 
+
 The initial conditions: 0.65, 0.1, 3 for plants, hare, and lynx, respectively, were chosen. The initial lynx population affects the number of peaks occuring within a 200 month period. 
 ![image](https://github.com/LeaDratwa/Plant-Hare-Lynx-model/assets/133098307/c84abe50-bb97-45b7-9853-fc13252f5620)
 Figure: Population changes over 200 momnths with an initial population of 1, 2, 3, 4, 5, and 6 for the lynx population
