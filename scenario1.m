@@ -2,16 +2,16 @@ clc
 close all
 clear all
 
-t = [0:200];
+t = [0:200]; %this denotes the time period of 200 months 
 
 %plant, hare, and lynx
-y0 = [0.1  0.1  0.1];
+y0 = [0.1  0.1  0.1]; %each element in the matrix signifies a population of each of the plants, hare and lynx. 
 
 %
-a1 = 1;
+a1 = 1; 
 a2  = 0.1;
 
-%
+%birth rate constants 
 b1 = 1;
 b2 = 1;
 %death rate constants
@@ -30,7 +30,7 @@ legend('Plant','Hare','lynx','Location','North')
 
 % plotting the state space
 figure("Name",'State space')
-plot3(y(:,1),y(:,2), y(:,3))
+plot3(y(:,1),y(:,2), y(:,3)) %creates a three dimensional plot
 title('State space')
 xlabel('Plants')
 ylabel('Hare')
