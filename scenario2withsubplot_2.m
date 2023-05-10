@@ -4,18 +4,14 @@ clear all
 
 t = [0:200];
 
-%plant, hare, and lynx initial population
 y0 = [0.65  0.1 3];
 
-%succesful predation
 a1 = 4;
 a2  = 0.15;
 
-%unsuccesful predation
 b1 = 3;
 b2 = 2;
 
-%death rate constants
 d1 = 0.3;
 d2 = 0.01;
 
@@ -24,7 +20,7 @@ d2 = 0.01;
 
 % plotting the population over time
 figure("Name",'Plant-Hare-Lynx')
-% subplot(2,1,1), 
+subplot(2,1,1)
 plot(t,y)
 title('Plant/Hare/Lynx Populations Over Time')
 xlabel('Time [months]')
@@ -33,8 +29,7 @@ legend('Plant','Hare','lynx','Location','North')
 
 
 % plotting the state space
-figure("Name",'State space')
-%subplot(2,1,2), 
+subplot(2,1,2)
 plot3(y(:,1),y(:,2), y(:,3))
 title('State space')
 xlabel('Plants')
