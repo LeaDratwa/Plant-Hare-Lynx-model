@@ -25,7 +25,8 @@ Scenario 2
 
 aim: 2 peaks in the lynx population within the 200 month period. Random oscillations. 
 
-The initial conditions: 0.65, 0.1, 3 for plants, hare, and lynx, respectively, were chosen. The initial lynx population affects the number of peaks occuring within a 200 month period. 
+The initial conditions: 0.65, 0.1, 3 for plants, hare, and lynx, respectively, were chosen. The initial lynx population affects the number of peaks occuring within a 200 month period. The initial population selected is significantly higher than that of the plants and hare.
+
 ![image](https://github.com/LeaDratwa/Plant-Hare-Lynx-model/assets/133098307/c84abe50-bb97-45b7-9853-fc13252f5620)
 Figure: Population changes over 200 momnths with an initial population of 1, 2, 3, 4, 5, and 6 for the lynx population
 
