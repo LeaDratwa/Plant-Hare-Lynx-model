@@ -2,21 +2,22 @@ clc
 close all
 clear all
 
-t = [0:200]; %this denotes the time period of 200 months 
+t = [0:200];
 
-%plant, hare, and lynx
-y0 = [0.1  0.1  0.1]; %each element in the matrix signifies a population of each of the plants, hare and lynx. 
+%plant, hare, and lynx initial population
+y0 = [0.6  0.3 0.9];
 
-%
-a1 = 1; 
-a2  = 0.1;
+%succesful predation
+a1 = 3;
+a2  = 0.2;
 
-%birth rate constants 
-b1 = 1;
-b2 = 1;
+%unsuccesful predation
+b1 = 0.5;
+b2 = 5;
+
 %death rate constants
 d1 = 0.1;
-d2 = 0.01;
+d2 = 0.02;
 
 [t,y] = ode45(@(t,y) plant_hare_lynx(t,y,a1,a2,b1,b2,d1,d2), t, y0);
 
@@ -30,7 +31,7 @@ legend('Plant','Hare','lynx','Location','North')
 
 % plotting the state space
 figure("Name",'State space')
-plot3(y(:,1),y(:,2), y(:,3)) %creates a three dimensional plot
+plot3(y(:,1),y(:,2), y(:,3))
 title('State space')
 xlabel('Plants')
 ylabel('Hare')
