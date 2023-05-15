@@ -6,7 +6,7 @@ Maria el Kadi and Lea Dratwa
 
 This is a three-species model describing the relationship between the consumption of a plant by a herbivore (the hare) which will be subsequently consumed by the predator carnivore (the lynx). This can be descibed by a set of variables where a1 represents the number of succesful instances of predation or consumption, a1 the consumption of the plants by the hare and a2 the consumption of the hare by the lynx. Since the population of the consumer decreases as b1 and b2 for the hare and lynx, respectively, increases, it is concluded that b signifies something that hinders the efficiency of the consumption. For example, b2 could be unsuccesful predation where energy is spent to hunt but no energy is gained. Finally, d1 signifies the death rate of the hares while d2 signifies the death rate of the lynx. The time period is defined by a variable t and denotes a time period of 200 months. 
 
-The increase in the population of plants is correlated with a higher birth rate of hares and a greater hare population is correlated with an increase in the lynx population. 
+The increase in the population of plants is correlated with a higher birth rate of hares and a greater hare population is correlated with an increase in the lynx population. Conversely, a lower hare population allows for an increase in plant population as they are not being consumed, and a lower lynx population allows for a growth in the hare population. Therefore, the three species populations are interlinked and these interactions cause fluctuations.  
 
 Scenario 1 
 
