@@ -34,6 +34,6 @@ A lower initial lynx population provided more stable oscillations but only 1 pea
 
 *To note: though it is not possible for a population of 0 to start increasing again in real life, the model can display a population of 0 that proceeds to increase. 
 Scenario 3
-We aimed to create a steady state where the population of hares and plants remained constant depsite the death of all the ;ynx population within 30 months. 
+We aimed to create a steady state where the population of hares and plants remained constant depsite the death of all the lynx population within 30 months. 
 
-
+The  key here is not only to decrease the death rate of the predators but also the prey, this way the predators do not have much to eat. we can observe this in the graph 
