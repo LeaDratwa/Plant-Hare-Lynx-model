@@ -33,3 +33,7 @@ Figure: Population changes over 200 momnths with an initial population of 1, 2, 
 A lower initial lynx population provided more stable oscillations but only 1 peak was obtained within the 200 month time frame for the lynx population. Choosing a higher number provided increasingly random oscillations during the time when the hare population was equal to 0.* 3 as the innitial population is low enough to have more similar oscillations while also having 2 peaks in the lynx population over this time period. 
 
 *To note: though it is not possible for a population of 0 to start increasing again in real life, the model can display a population of 0 that proceeds to increase. 
+Scenario 3
+We aimed to create a steady state where the population of hares and plants remained constant depsite the death of all the ;ynx population within 30 months. 
+
+
