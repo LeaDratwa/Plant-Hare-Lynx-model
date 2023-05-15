@@ -13,7 +13,7 @@ Scenario 1
 aim: Stable periodicity of roughly 20 months. 
 
 
-The values selected for the three populations were small and close (0.6, 0.3, and 0.545, for the plants, hare, and lynx, respectively). The higher plant population at the start enabled a rise in hare which then gave rise to an increase in lynx. Having a lower plant population at the start led to a slower increase in both of the other populations so the oscillations were not as regular and their amplitude increased over time. 
+The values selected for the three populations were small and close (0.6, 0.3, and 0.545, for the plants, hare, and lynx, respectively). The higher plant population at the start enabled a rise in hare which then gave rise to an increase in lynx. Having a lower plant population at the start led to a slower increase in both of the other populations so the oscillations were not as regular and their amplitude increased over time, before decreasing again.
 
 ![image](https://github.com/LeaDratwa/Plant-Hare-Lynx-model/assets/133098307/8c22661f-acdf-4856-846c-43ff205664c6)
 
