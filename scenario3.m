@@ -12,7 +12,7 @@ y0 = [0.2 0.6 1];
 %succesful predation
 a1 = 5;
 a2  = 0.5;
-%increased the number of successful predation for a1
+%increased the number of successful predation for a1, aka between hares and plants, so that the hares wouldn't die off. 
 
 %unsuccesful predation
 b1 = 1;
@@ -24,7 +24,7 @@ d2 = 0.25;
 
 %simulataneously increased the death rate of both hare and lynx
 % initially they were at d1= 0.1 and d=0.01 
-% the death rate of the prey has to be larger than that of the predator
+% the death rate of the prey has to be larger than that of the predator. The logic behind this is the predator dies off because it doesn't have prey to eat. 
 
 [t,y] = ode45(@(t,y) plants_hare_lynx(t,y,a1,a2,b1,b2,d1,d2), t, y0);
 
