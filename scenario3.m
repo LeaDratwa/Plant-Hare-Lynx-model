@@ -35,7 +35,8 @@ title('Plant/Hare/Lynx Populations Over Time')
 xlabel('Time [months]')
 ylabel('Population')
 legend('Plant','Hare','lynx','Location','North')
-
+%the number of hares and plants stays constant while the population of lynx
+%reaches zero after 30 days
 % plotting the state space
 figure("Name",'State space')
 plot3(y(:,1),y(:,2), y(:,3))
@@ -43,6 +44,5 @@ title('State space')
 xlabel('Plants')
 ylabel('Hare')
 zlabel('lynx')
+% the state space here tends to a spiral which implies a steady space 
 
-%the number of hares and plants stays constant while the population of lynx
-%reaches zero after 30 days
